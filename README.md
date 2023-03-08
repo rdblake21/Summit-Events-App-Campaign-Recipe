@@ -1,4 +1,4 @@
-# SEA Campaign Recipe
+# Summit Events App Campaign Recipe
  Align Campaign and Campaign Member to the Summit Events App
 
  ## Goal of the Campaign Recipe
