@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Override__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campaign related to the Event Instance. Registrations will become or match to Campaign Members,</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Campaign related to the Event Instance. Registrations will become or match to Campaign Members</inlineHelpText>
+    <label>Campaign Override</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Summit Events Instances</relationshipLabel>
+    <relationshipName>Summit_Events_Instances</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

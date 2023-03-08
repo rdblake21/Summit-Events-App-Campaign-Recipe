@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.74.0'
+project:
+    name: SEA-Campaign-Recipe
+    package:
+        name: Summit Events Campaign Management
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+    dependencies:
+    - version_id: 04t4P000002Kna7QAC
+
+tasks:
+    robot:
+        options:
+            suites: robot/SEA-Campaign-Recipe/tests
+            options:
+                outputdir: robot/SEA-Campaign-Recipe/results
+
+    robot_testdoc:
+        options:
+            path: robot/SEA-Campaign-Recipe/tests
+            output: robot/SEA-Campaign-Recipe/doc/SEA-Campaign-Recipe_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
