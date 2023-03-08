@@ -1,1 +1,17 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "55.0"}
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "package": "SummitEventsAppCampaigns",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
+    }
+  ],
+  "namespace": null,
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "SummitEventsAppCampaigns": "0Ho5f000000oMLHCA2"
+  }
+}
