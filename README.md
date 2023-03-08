@@ -15,6 +15,8 @@
  ## Best Practice
  This flow is a template, so best practice would be to create a new flow from this template should there be future updates.
 
+##Installation Process
+
 ### Steps Post Installation
 - Update permissions to ensure that the Campaign field on the Event and Campaign Override on Instance are accessible to the appropriate users. This may happen on a profile, but a permission set is preferred
 - Update the Event Lightning Layout to add "Campaign" to the Event Details tab
