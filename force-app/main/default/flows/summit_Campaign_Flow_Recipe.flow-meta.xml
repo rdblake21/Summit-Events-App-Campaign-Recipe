@@ -302,6 +302,7 @@
         <connector>
             <targetReference>Campaign_Event_or_Instance</targetReference>
         </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>or</filterLogic>
         <filters>
             <field>summit__Status__c</field>
@@ -314,7 +315,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>CampaignID</name>
         <dataType>String</dataType>
