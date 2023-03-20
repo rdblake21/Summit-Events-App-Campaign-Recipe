@@ -12,6 +12,7 @@
   "sourceApiVersion": "55.0",
   "packageAliases": {
     "SummitEventsAppCampaigns": "0Ho5f000000oMLHCA2",
-    "SummitEventsAppCampaigns@0.1.0-1": "04t5f000000rM5DAAU"
+    "SummitEventsAppCampaigns@0.1.0-1": "04t5f000000rM5DAAU",
+    "SummitEventsAppCampaigns@1.0.0-1": "04t5f000000rM7xAAE"
   }
 }

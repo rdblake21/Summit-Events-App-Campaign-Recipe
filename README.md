@@ -29,5 +29,5 @@
 - Promoete the package: `sfdx force:package:version:promote -p version_id -n`
 
 ### Installation Links
-- Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000rM5DAAU
-- Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000rM5DAAU
+- Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000rM7xAAE
+- Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000rM7xAAE
